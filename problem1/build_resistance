@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Building the AnalogIn applications"
+g++ -Wall AnalogIn.cpp read_resistance.cpp -o read_resistance
+echo "Finished"
